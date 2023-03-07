@@ -1,0 +1,72 @@
+*{
+    margin:auto;
+    padding:0;
+    }
+    body {
+    position: relative;
+    background-color:#000;
+    max-width:100vw;
+    height:100vh;
+    overflow: hidden;
+    }
+    
+    #canvas{
+    z-index: 2;
+    }
+    #bgImage{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    z-index:-1;
+    }
+    #name{
+        position:absolute;
+        top:20px;
+        left:1%;
+        height:0px;
+        width:20px;
+        font-size:15px;
+        font-weight:6000;
+        color:black;
+    }
+    #score{
+        position:absolute;
+        top:20px;
+        left:50%;
+        height:40px;
+        width:0px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:30px;
+        font-weight:600;
+        color:black;
+    }
+    .btn{
+       position:absolute;
+       top: calc(50% - (100px / 2));
+       left: calc(50% - (150px / 2));
+       height:100px;
+       width:150px;
+       font-size:20px;
+       display:flex;
+       align-items:center;
+       justify-content:center;
+       border:2px solid black;
+       border-radius:10px 10px;
+       background-color:rgba(255,255,255,0.5);
+       visibility:hidden;
+    }
+    
+    #loading{
+    position:fixed;
+    top:285px;
+    left:70px;
+    height:100px;
+    width:250px;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    }
