@@ -81,7 +81,7 @@ this.x = x;
 this.y = y;
 this.dy = 0;
 this.radius = 25;
-this.gravity = 0.3;
+this.gravity = 0.2;
 this.falling = false;
 this.draw();  }
 
