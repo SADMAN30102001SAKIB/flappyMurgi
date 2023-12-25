@@ -1,7 +1,7 @@
 const s = s => document.querySelector(s);
 let canvas_height = innerHeight, canvas_width = innerWidth;
 let canvas,ctx,bird,
-    gamespeed = 2.5,hue = 0,
+    gamespeed = 1.5,hue = 0,
     particles = [],pipes = [],
     frames = 0,buttons,
     score,scores = 0,birdcollided = false,
@@ -235,7 +235,7 @@ function handlePipes(){
 if(frames > 260/gamespeed){
 pipes.unshift(new Pipe());
 frames = 0;
-if(gamespeed < 4){
+if(gamespeed < 2.5){
 gamespeed += .1;} }
 
 for(let i = 0;i<pipes.length;i++){
