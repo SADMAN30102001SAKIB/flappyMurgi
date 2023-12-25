@@ -81,7 +81,7 @@ this.x = x;
 this.y = y;
 this.dy = 0;
 this.radius = 25;
-this.gravity = 0.1;
+this.gravity = 0.15;
 this.falling = false;
 this.draw();  }
 
@@ -287,4 +287,3 @@ scores = 0;
 buttons[1].style.visibility = "hidden";
 initialize();
 }
-
